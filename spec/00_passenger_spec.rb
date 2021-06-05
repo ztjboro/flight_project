@@ -15,7 +15,7 @@ describe "Passenger" do
     it "should set @name with the given arg" do
       expect(passenger.instance_variable_get(:@name)).to eq("Rose")
     end
-
+ 
     it "should set @flight_numbers to be an empty array" do
       expect(passenger.instance_variable_get(:@flight_numbers)).to match_array([])
     end
